@@ -1,7 +1,7 @@
 package tn.esprit.autoloc.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
 import tn.esprit.autoloc.domain.Vehicule;
 
-public interface VehiculeRepository extends JpaRepository<Vehicule, Long> {
+public interface VehiculeRepository extends CrudRepository<Vehicule, Long> {
 }
